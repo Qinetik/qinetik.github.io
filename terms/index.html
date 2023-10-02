@@ -1,0 +1,273 @@
+<!DOCTYPE html><html class="dark"><head><title>Qinetik | App Development</title><link rel="icon" type="image/png" href="/assets/favicon.png"><style>.dark{--a0:0.25em;
+--a1:0.5em;
+--a2:1em;
+--a3:"Untitled Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+--a4:"Untitled Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+--a5:cubic-bezier(0.25, 0.1, 0.25, 1);
+--a6:cubic-bezier(0.05, 0.95, 0.35, 1.05);
+--a7:cubic-bezier(0.05, 0.05, 0, 1);
+--a8:cubic-bezier(0.95, 0, 0.95, 0.25);
+--a9:#145222;
+--b0:#adebbb;
+--b1:#624904;
+--b2:#fbe29d;
+--b3:#640202;
+--b4:#fdb4b4;
+--b5:#133353;
+--b6:#99c9ff;
+--b7:#119c8c;
+--b8:#14b8a5;
+--b9:#17d3bd;
+--c0:#23e7d0;
+--c1:#3fe9d5;
+--c2:#5aeddc;
+--c3:rgb(59,130,246);
+--c4:rgb(89,150,247);
+--c5:rgb(119,168,249);
+--c6:rgb(148,187,250);
+--c7:rgb(177,206,251);
+--c8:rgb(206,224,253);
+--c9:#121212;
+--d0:#1e1e1e;
+--d1:#2c2c2c;
+--d2:#3a3a3a;
+--d3:#464646;
+--d4:#525252;
+--d5:rgb(255,255,255);
+--d6:rgb(237,237,237);
+--d7:rgb(219,219,219);
+--d8:rgb(201,201,201);
+--d9:rgb(184,184,184);
+--e0:rgb(166,166,166);
+--e1:rgba(15, 23, 42, 1);}</style><style>.light{--a0:0.25em;
+--a1:0.5em;
+--a2:1em;
+--a3:"Untitled Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+--a4:"Untitled Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+--a5:cubic-bezier(0.25, 0.1, 0.25, 1);
+--a6:cubic-bezier(0.05, 0.95, 0.35, 1.05);
+--a7:cubic-bezier(0.05, 0.05, 0, 1);
+--a8:cubic-bezier(0.95, 0, 0.95, 0.25);
+--a9:#84e19a;
+--b0:#0a2911;
+--b1:#f9d36c;
+--b2:#312402;
+--b3:#fc6969;
+--b4:#4b0202;
+--b5:#82b3e3;
+--b6:#001833;
+--b7:rgb(23,207,185);
+--b8:rgb(18,161,144);
+--b9:rgb(15,138,123);
+--c0:rgb(13,115,103);
+--c1:rgb(10,92,82);
+--c2:rgb(8,69,62);
+--c3:rgb(59,130,246);
+--c4:rgb(26,110,244);
+--c5:rgb(11,92,224);
+--c6:rgb(9,78,190);
+--c7:rgb(7,64,156);
+--c8:rgb(6,50,122);
+--c9:rgb(246,246,247);
+--d0:rgb(225,225,229);
+--d1:rgb(204,204,209);
+--d2:rgb(182,182,190);
+--d3:rgb(160,160,171);
+--d4:rgb(139,139,152);
+--d5:rgb(0,0,0);
+--d6:rgb(23,23,23);
+--d7:rgb(46,46,46);
+--d8:rgb(69,69,69);
+--d9:rgb(92,92,92);
+--e0:rgb(115,115,115);
+--e1:rgba(0, 0, 0, 0.5);}</style><style>
+    :root * {
+        font-family : var(--a4);
+    }
+    a {
+        color : #0060FE;
+    }
+    a:hover {
+        color : #266bd9;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-family : var(--a3);
+    }
+    p {
+        line-height : 1.75rem;
+        letter-spacing : 0.05rem;
+    }
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+        background : var(--e0);
+        color : var(--d0);
+        border-radius : var(--a0);
+        padding : 1px 3px;
+    }
+</style><style>:root.light{color-scheme:light}:root.dark{color-scheme:dark}body{margin:0}.light .display-in-dark,.dark .display-in-light{display:none}.encapsulation{width:100%;height:100%}footer a{text-decoration:none}
+</style></head><body><style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var b=Object.defineProperty;var f=(a,s,i)=>s in a?b(a,s,{enumerable:!0,configurable:!0,writable:!0,value:i}):a[s]=i;var d=(a,s,i)=>(f(a,typeof s!="symbol"?s+"":s,i),i);var u;{let a={0:t=>m(t),1:t=>i(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(i(t)),5:t=>new Set(i(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t)},s=t=>{let[e,r]=t;return e in a?a[e](r):void 0},i=t=>t.map(s),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([e,r])=>[e,s(r)]));customElements.get("astro-island")||customElements.define("astro-island",(u=class extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var l;if(!this.hydrator||!this.isConnected)return;let e=(l=this.parentElement)==null?void 0:l.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),c={},h=this.querySelectorAll("template[data-astro-template]");for(let n of h){let o=n.closest(this.tagName);o!=null&&o.isSameNode(this)&&(c[n.getAttribute("data-astro-template")||"default"]=n.innerHTML,n.remove())}for(let n of r){let o=n.closest(this.tagName);o!=null&&o.isSameNode(this)&&(c[n.getAttribute("name")||"default"]=n.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(n){let o=this.getAttribute("component-url")||"<unknown>",y=this.getAttribute("component-export");throw y&&(o+=` (export ${y})`),console.error(`[hydrate] Error parsing props for component ${o}`,this.getAttribute("props"),n),n}await this.hydrator(this)(this.Component,p,c,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((e,r)=>{r.disconnect(),setTimeout(()=>this.childrenConnectedCallback(),0)}).observe(this,{childList:!0})}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}Astro[r](async()=>{let c=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),c?import(c):()=>()=>{}]),l=this.getAttribute("component-export")||"default";if(!l.includes("."))this.Component=h[l];else{this.Component=h;for(let n of l.split("."))this.Component=this.Component[n]}return this.hydrator=p,this.hydrate},e,this)}attributeChangedCallback(){this.hydrate()}},d(u,"observedAttributes",["props"]),u))}})();</script><astro-island uid="kFeGt" data-solid-render-id="s0" component-url="/assets/AutoSystemColorScheme.1cb1e5d8.js" component-export="AutoSystemColorScheme" renderer-url="/assets/client.2d7bb718.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;AutoSystemColorScheme&quot;,&quot;value&quot;:true}"></astro-island><style>.c1domoli{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}</style><!--!$e0-1-0--><div data-hk="0-1-0-0" class="c1domoli encapsulation " ><astro-island uid="1j0N0i" data-solid-render-id="s1" component-url="/assets/AppBar.efb21b68.js" component-export="WebAppBar" renderer-url="/assets/client.2d7bb718.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;WebAppBar&quot;,&quot;value&quot;:true}" await-children=""><style>.c19iy8y7{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1em;
+  height: 4em;
+}</style><!--!$es10-0-0-1-0--><div data-hk="s10-0-0-1-0-0" class="c19iy8y7 "><style>.ckepzzb{
+  margin-right: 1rem;
+}</style><!--!$es10-0-0-1-0-2-1-0--><div data-hk="s10-0-0-1-0-2-1-0-0" class="ckepzzb "><style>.c1wvyql1{
+    width: 1em;
+    height: 100%;
+}</style><!--!$es10-0-0-1-0-2-1-0-1-1-0--><div data-hk="s10-0-0-1-0-2-1-0-1-1-0-0" width="1em" class="c1wvyql1 "></div><!--!$/es10-0-0-1-0-2-1-0-1-1-0--></div><!--!$/es10-0-0-1-0-2-1-0--><style>.c1v0datl{
+  flex : 1;
+}</style><!--!$es10-0-0-1-0-3-1-0--><h3 data-hk="s10-0-0-1-0-3-1-0-0" class="c1v0datl "><svg data-hk="s10-0-0-1-0-3-1-0-1-0" xmlns="http://www.w3.org/2000/svg" width="120" height="24" class="display-in-light " viewBox="0 0 118.75 24.75"><path d="M1.35,7.1A10.14,10.14,0,0,1,5.1,2.9a10.53,10.53,0,0,1,5.67-1.5A10.46,10.46,0,0,1,16.4,2.9a10.14,10.14,0,0,1,3.75,4.2,13.85,13.85,0,0,1,1.35,6.29,12.62,12.62,0,0,1-1.35,6,9.74,9.74,0,0,1-3.75,4,10.88,10.88,0,0,1-5.63,1.42A11,11,0,0,1,5.1,23.33a9.74,9.74,0,0,1-3.75-4,12.62,12.62,0,0,1-1.35-6A13.85,13.85,0,0,1,1.35,7.1ZM13.7,8.93a3.31,3.31,0,0,0-2.93-1.59,3.36,3.36,0,0,0-3,1.59,8.06,8.06,0,0,0-1,4.46,6.61,6.61,0,0,0,1,4,3.46,3.46,0,0,0,3,1.44,3.41,3.41,0,0,0,2.93-1.44,6.61,6.61,0,0,0,1.05-4A8.06,8.06,0,0,0,13.7,8.93ZM24.23,24.47l-13.46.28,0-4.94,13.48,0Z" fill="#28b089"></path><path d="M31.11,0V5.14H24V0Zm-.24,7V24.47H24.23V7Z" fill="#414042"></path><path d="M40.59,7V24.51H33.94V7Zm4.21,5.9A2.55,2.55,0,0,0,43,12.27a2.26,2.26,0,0,0-1.2.33,2.43,2.43,0,0,0-.86.91,2.8,2.8,0,0,0-.31,1.35l-1.37-.21a9.41,9.41,0,0,1,1-4.46,7.68,7.68,0,0,1,2.5-2.87,5.53,5.53,0,0,1,3.08-1,5.94,5.94,0,0,1,4.54,1.9,7.65,7.65,0,0,1,1.78,5.44V24.51H45.48V15.07A2.92,2.92,0,0,0,44.8,12.93Z" fill="#414042"></path><path d="M55.81,10.85a7.68,7.68,0,0,1,3.13-3.11,10.79,10.79,0,0,1,9.75.13,8.92,8.92,0,0,1,3.41,3.35,9.54,9.54,0,0,1,1.24,4.9v1.15H61.14V13.14h5.07a2.08,2.08,0,0,0-.75-1.43,2.56,2.56,0,0,0-1.66-.52,1.92,1.92,0,0,0-1.73,1,7.11,7.11,0,0,0-.61,3.48,5.86,5.86,0,0,0,.64,3.06,2.11,2.11,0,0,0,1.91,1,2.35,2.35,0,0,0,1.38-.35,1.6,1.6,0,0,0,.65-1h7.09a6.5,6.5,0,0,1-2.85,4.85,11.53,11.53,0,0,1-6.34,1.55,10.33,10.33,0,0,1-4.9-1.1,7.69,7.69,0,0,1-3.19-3.15,9.76,9.76,0,0,1-1.14-4.84A10,10,0,0,1,55.81,10.85Z" fill="#414042"></path><path d="M86.91,7v5.18H75.3V7Zm0,17.48H84.74A8.76,8.76,0,0,1,81,23.74a5.28,5.28,0,0,1-2.4-2.14,6.57,6.57,0,0,1-.82-3.35V2.45h6.64V17.34a1.83,1.83,0,0,0,.34,1.22,1.31,1.31,0,0,0,1.06.39h1.09Z" fill="#414042"></path><path d="M96.1,0V5.14H89V0Zm-.24,7V24.47H89.21V7Z" fill="#414042"></path><path d="M105.57,0V24.47H98.93V0Zm12.55,7-5.94,7.9,6.57,9.58h-7.69l-3.84-6-2.31,3-2.1-3.78L109.91,7Z" fill="#00aeef"></path></svg><svg data-hk="s10-0-0-1-0-3-1-0-2-0" xmlns="http://www.w3.org/2000/svg" width="120" height="24" class="display-in-dark " viewBox="0 0 118.75 24.75"><path d="M1.35,7.1A10.14,10.14,0,0,1,5.1,2.9a10.53,10.53,0,0,1,5.67-1.5A10.46,10.46,0,0,1,16.4,2.9a10.14,10.14,0,0,1,3.75,4.2,13.85,13.85,0,0,1,1.35,6.29,12.62,12.62,0,0,1-1.35,6,9.74,9.74,0,0,1-3.75,4,10.88,10.88,0,0,1-5.63,1.42A11,11,0,0,1,5.1,23.33a9.74,9.74,0,0,1-3.75-4,12.62,12.62,0,0,1-1.35-6A13.85,13.85,0,0,1,1.35,7.1ZM13.7,8.93a3.31,3.31,0,0,0-2.93-1.59,3.36,3.36,0,0,0-3,1.59,8.06,8.06,0,0,0-1,4.46,6.61,6.61,0,0,0,1,4,3.46,3.46,0,0,0,3,1.44,3.41,3.41,0,0,0,2.93-1.44,6.61,6.61,0,0,0,1.05-4A8.06,8.06,0,0,0,13.7,8.93ZM24.23,24.47l-13.46.28,0-4.94,13.48,0Z" fill="#28b089"></path><path d="M31.11,0V5.14H24V0Zm-.24,7V24.47H24.23V7Z" fill="#ced8dd"></path><path d="M40.59,7V24.51H33.94V7Zm4.21,5.9A2.55,2.55,0,0,0,43,12.27a2.26,2.26,0,0,0-1.2.33,2.43,2.43,0,0,0-.86.91,2.8,2.8,0,0,0-.31,1.35l-1.37-.21a9.41,9.41,0,0,1,1-4.46,7.68,7.68,0,0,1,2.5-2.87,5.53,5.53,0,0,1,3.08-1,5.94,5.94,0,0,1,4.54,1.9,7.65,7.65,0,0,1,1.78,5.44V24.51H45.48V15.07A2.92,2.92,0,0,0,44.8,12.93Z" fill="#ced8dd"></path><path d="M55.81,10.85a7.68,7.68,0,0,1,3.13-3.11,10.79,10.79,0,0,1,9.75.13,8.92,8.92,0,0,1,3.41,3.35,9.54,9.54,0,0,1,1.24,4.9v1.15H61.14V13.14h5.07a2.08,2.08,0,0,0-.75-1.43,2.56,2.56,0,0,0-1.66-.52,1.92,1.92,0,0,0-1.73,1,7.11,7.11,0,0,0-.61,3.48,5.86,5.86,0,0,0,.64,3.06,2.11,2.11,0,0,0,1.91,1,2.35,2.35,0,0,0,1.38-.35,1.6,1.6,0,0,0,.65-1h7.09a6.5,6.5,0,0,1-2.85,4.85,11.53,11.53,0,0,1-6.34,1.55,10.33,10.33,0,0,1-4.9-1.1,7.69,7.69,0,0,1-3.19-3.15,9.76,9.76,0,0,1-1.14-4.84A10,10,0,0,1,55.81,10.85Z" fill="#ced8dd"></path><path d="M86.91,7v5.18H75.3V7Zm0,17.48H84.74A8.76,8.76,0,0,1,81,23.74a5.28,5.28,0,0,1-2.4-2.14,6.57,6.57,0,0,1-.82-3.35V2.45h6.64V17.34a1.83,1.83,0,0,0,.34,1.22,1.31,1.31,0,0,0,1.06.39h1.09Z" fill="#ced8dd"></path><path d="M96.1,0V5.14H89V0Zm-.24,7V24.47H89.21V7Z" fill="#ced8dd"></path><path d="M105.57,0V24.47H98.93V0Zm12.55,7-5.94,7.9,6.57,9.58h-7.69l-3.84-6-2.31,3-2.1-3.78L109.91,7Z" fill="#27aae1"></path></svg></h3><!--!$/es10-0-0-1-0-3-1-0--><style>.c1esthja{
+
+}</style><!--!$es10-0-0-1-0-5-1-0--><div data-hk="s10-0-0-1-0-5-1-0-0" class="c1esthja "><style>.cgvjnm5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}</style><!--!$es10-0-0-1-0-5-1-0-1-1-0--><div data-hk="s10-0-0-1-0-5-1-0-1-1-0-0" class="cgvjnm5 "><style>.cih5ysc{
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+    fill:var(--d5);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    &:hover {
+        background: var(--b7);
+    }
+
+    &:active {
+        background: var(--b8);
+    }
+
+}</style><!--!$es10-0-0-1-0-5-1-0-1-1-0-1-0-1-0--><div data-hk="s10-0-0-1-0-5-1-0-1-1-0-1-0-1-0-0" class="cih5ysc "><svg data-hk="s10-0-0-1-0-5-1-0-1-1-0-1-0-1-0-1-0" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><path id="theme-light-dark" d="M18.272,3a18.556,18.556,0,0,0,.089,31.716A16.081,16.081,0,0,1,2,18.856,16.069,16.069,0,0,1,18.272,3M52.5,7.323l4.231,4.123L10.669,56.338,6.438,52.215,52.5,7.323M34.219,14.329,29.84,11.648l-4.26,2.883,1.243-4.9L22.71,6.573l5.178-.346L29.6,1.47l1.982,4.7,5.118.086L32.71,9.514l1.509,4.815M24.456,24.738l-3.432-2.1L17.71,24.882l1.006-3.806-3.225-2.393,4.024-.259L20.846,14.7l1.509,3.662,4.024.086-3.107,2.508,1.183,3.777M52.3,36.155A16.069,16.069,0,0,1,36.024,52.013a16.519,16.519,0,0,1-9.645-3.085L49.13,26.756a15.555,15.555,0,0,1,3.166,9.4M39.278,55.127l8.2-3.316-.71,9.659-7.485-6.343m12.811-7.785,3.4-7.987L62,46.679l-9.911.663m3.4-14.3-3.373-8.015L62,25.718l-6.509,7.323M24.574,51.811l8.2,3.316-7.485,6.314Z" transform="translate(-2 -1.47)"></path></svg></div><!--!$/es10-0-0-1-0-5-1-0-1-1-0-1-0-1-0--></div><!--!$/es10-0-0-1-0-5-1-0-1-1-0--></div><!--!$/es10-0-0-1-0-5-1-0--></div><!--!$/es10-0-0-1-0--></astro-island><style>.c1domoli{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}</style><!--!$e0-1-0--><div data-hk="0-1-0-0" class="c1domoli encapsulation " ><style>.cwistwu{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+
+    padding: 4rem 8rem;
+}</style><!--!$e0-0-1-0--><div data-hk="0-0-1-0-0" class="cwistwu "><h2 data-hk="0-0-1-0-1">Qinetik's Terms of Services</h2><h3 data-hk="0-0-1-0-2">1. Terms</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-3-1-0--><p data-hk="0-0-1-0-3-1-0-0" class="cwwiaj0 ">By accessing this Website / Using the app , you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p><!--!$/e0-0-1-0-3-1-0--><h3 data-hk="0-0-1-0-4">2. Use License</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-5-1-0--><p data-hk="0-0-1-0-5-1-0-0" class="cwwiaj0 ">Permission is granted to temporarily download one copy of the materials on Qinetik's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p><!--!$/e0-0-1-0-5-1-0--><style>.c1i3njq7{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}</style><!--!$e0-0-1-0-6-1-0--><ul data-hk="0-0-1-0-6-1-0-0" class="c1i3njq7 "><li data-hk="0-0-1-0-6-1-0-1">modify or copy the materials;</li><li data-hk="0-0-1-0-6-1-0-2">use the materials for any commercial purpose or for any public display</li><li data-hk="0-0-1-0-6-1-0-3">attempt to reverse engineer any software contained on Qinetik's Website</li><li data-hk="0-0-1-0-6-1-0-4">remove any copyright or other proprietary notations from the materials or</li><li data-hk="0-0-1-0-6-1-0-5">transferring the materials to another person or "mirror" the materials on any other server.</li></ul><!--!$/e0-0-1-0-6-1-0--><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-7-1-0--><p data-hk="0-0-1-0-7-1-0-0" class="cwwiaj0 ">This will let Qinetik to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format.</p><!--!$/e0-0-1-0-7-1-0--><h3 data-hk="0-0-1-0-8">3. Disclaimer</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-9-1-0--><p data-hk="0-0-1-0-9-1-0-0" class="cwwiaj0 ">All the materials on Qinetik’s Website are provided "as is". Qinetik makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Qinetik does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p><!--!$/e0-0-1-0-9-1-0--><h3 data-hk="0-0-1-0-10">4. Limitations</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-11-1-0--><p data-hk="0-0-1-0-11-1-0-0" class="cwwiaj0 ">Qinetik or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Qinetik’s Website, even if Qinetik or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p><!--!$/e0-0-1-0-11-1-0--><h3 data-hk="0-0-1-0-12">5. Revisions and Errata</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-13-1-0--><p data-hk="0-0-1-0-13-1-0-0" class="cwwiaj0 ">The materials appearing on Qinetik’s Website may include technical, typographical, or photographic errors. Qinetik will not promise that any of the materials in this Website are accurate, complete, or current. Qinetik may change the materials contained on its Website at any time without notice. Qinetik does not make any commitment to update the materials.</p><!--!$/e0-0-1-0-13-1-0--><h3 data-hk="0-0-1-0-14">6. Links</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-15-1-0--><p data-hk="0-0-1-0-15-1-0-0" class="cwwiaj0 ">Qinetik has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Qinetik of the site. The use of any linked website is at the user’s own risk.</p><!--!$/e0-0-1-0-15-1-0--><h3 data-hk="0-0-1-0-16">7. Site Terms of Use Modifications</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-17-1-0--><p data-hk="0-0-1-0-17-1-0-0" class="cwwiaj0 ">Qinetik may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p><!--!$/e0-0-1-0-17-1-0--><h3 data-hk="0-0-1-0-18">8. Your Privacy</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-19-1-0--><p data-hk="0-0-1-0-19-1-0-0" class="cwwiaj0 ">Please read our <a data-hk="0-0-1-0-19-1-0-1" href="/privacy">Privacy Policy.</a></p><!--!$/e0-0-1-0-19-1-0--><h3 data-hk="0-0-1-0-20">9. Governing Law</h3><style>.cwwiaj0{
+    
+}</style><!--!$e0-0-1-0-21-1-0--><p data-hk="0-0-1-0-21-1-0-0" class="cwwiaj0 ">Any claim related to Qinetik's Website shall be governed by the laws of UK without regards to its conflict of law provisions.</p><!--!$/e0-0-1-0-21-1-0--></div><!--!$/e0-0-1-0--></div><!--!$/e0-1-0--><style>.c1a6xpja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+
+    width: 100%;
+    padding: 0.5em 0 2em 0;
+    justify-content: space-evenly;
+    align-items:start;
+}</style><!--!$e0-0-1-0--><footer data-hk="0-0-1-0-0" class="c1a6xpja "><style>.c3rym5c{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+
+
+}</style><!--!$e0-0-1-0-1-1-0--><div data-hk="0-0-1-0-1-1-0-0" class="c3rym5c "><div data-hk="0-0-1-0-1-1-0-1"><!--#--><svg data-hk="0-0-1-0-1-1-0-2-0" xmlns="http://www.w3.org/2000/svg" width="120" height="24" class="display-in-light " viewBox="0 0 118.75 24.75"><path d="M1.35,7.1A10.14,10.14,0,0,1,5.1,2.9a10.53,10.53,0,0,1,5.67-1.5A10.46,10.46,0,0,1,16.4,2.9a10.14,10.14,0,0,1,3.75,4.2,13.85,13.85,0,0,1,1.35,6.29,12.62,12.62,0,0,1-1.35,6,9.74,9.74,0,0,1-3.75,4,10.88,10.88,0,0,1-5.63,1.42A11,11,0,0,1,5.1,23.33a9.74,9.74,0,0,1-3.75-4,12.62,12.62,0,0,1-1.35-6A13.85,13.85,0,0,1,1.35,7.1ZM13.7,8.93a3.31,3.31,0,0,0-2.93-1.59,3.36,3.36,0,0,0-3,1.59,8.06,8.06,0,0,0-1,4.46,6.61,6.61,0,0,0,1,4,3.46,3.46,0,0,0,3,1.44,3.41,3.41,0,0,0,2.93-1.44,6.61,6.61,0,0,0,1.05-4A8.06,8.06,0,0,0,13.7,8.93ZM24.23,24.47l-13.46.28,0-4.94,13.48,0Z" fill="#28b089"></path><path d="M31.11,0V5.14H24V0Zm-.24,7V24.47H24.23V7Z" fill="#414042"></path><path d="M40.59,7V24.51H33.94V7Zm4.21,5.9A2.55,2.55,0,0,0,43,12.27a2.26,2.26,0,0,0-1.2.33,2.43,2.43,0,0,0-.86.91,2.8,2.8,0,0,0-.31,1.35l-1.37-.21a9.41,9.41,0,0,1,1-4.46,7.68,7.68,0,0,1,2.5-2.87,5.53,5.53,0,0,1,3.08-1,5.94,5.94,0,0,1,4.54,1.9,7.65,7.65,0,0,1,1.78,5.44V24.51H45.48V15.07A2.92,2.92,0,0,0,44.8,12.93Z" fill="#414042"></path><path d="M55.81,10.85a7.68,7.68,0,0,1,3.13-3.11,10.79,10.79,0,0,1,9.75.13,8.92,8.92,0,0,1,3.41,3.35,9.54,9.54,0,0,1,1.24,4.9v1.15H61.14V13.14h5.07a2.08,2.08,0,0,0-.75-1.43,2.56,2.56,0,0,0-1.66-.52,1.92,1.92,0,0,0-1.73,1,7.11,7.11,0,0,0-.61,3.48,5.86,5.86,0,0,0,.64,3.06,2.11,2.11,0,0,0,1.91,1,2.35,2.35,0,0,0,1.38-.35,1.6,1.6,0,0,0,.65-1h7.09a6.5,6.5,0,0,1-2.85,4.85,11.53,11.53,0,0,1-6.34,1.55,10.33,10.33,0,0,1-4.9-1.1,7.69,7.69,0,0,1-3.19-3.15,9.76,9.76,0,0,1-1.14-4.84A10,10,0,0,1,55.81,10.85Z" fill="#414042"></path><path d="M86.91,7v5.18H75.3V7Zm0,17.48H84.74A8.76,8.76,0,0,1,81,23.74a5.28,5.28,0,0,1-2.4-2.14,6.57,6.57,0,0,1-.82-3.35V2.45h6.64V17.34a1.83,1.83,0,0,0,.34,1.22,1.31,1.31,0,0,0,1.06.39h1.09Z" fill="#414042"></path><path d="M96.1,0V5.14H89V0Zm-.24,7V24.47H89.21V7Z" fill="#414042"></path><path d="M105.57,0V24.47H98.93V0Zm12.55,7-5.94,7.9,6.57,9.58h-7.69l-3.84-6-2.31,3-2.1-3.78L109.91,7Z" fill="#00aeef"></path></svg><!--/--><!--#--><svg data-hk="0-0-1-0-1-1-0-3-0" xmlns="http://www.w3.org/2000/svg" width="120" height="24" class="display-in-dark " viewBox="0 0 118.75 24.75"><path d="M1.35,7.1A10.14,10.14,0,0,1,5.1,2.9a10.53,10.53,0,0,1,5.67-1.5A10.46,10.46,0,0,1,16.4,2.9a10.14,10.14,0,0,1,3.75,4.2,13.85,13.85,0,0,1,1.35,6.29,12.62,12.62,0,0,1-1.35,6,9.74,9.74,0,0,1-3.75,4,10.88,10.88,0,0,1-5.63,1.42A11,11,0,0,1,5.1,23.33a9.74,9.74,0,0,1-3.75-4,12.62,12.62,0,0,1-1.35-6A13.85,13.85,0,0,1,1.35,7.1ZM13.7,8.93a3.31,3.31,0,0,0-2.93-1.59,3.36,3.36,0,0,0-3,1.59,8.06,8.06,0,0,0-1,4.46,6.61,6.61,0,0,0,1,4,3.46,3.46,0,0,0,3,1.44,3.41,3.41,0,0,0,2.93-1.44,6.61,6.61,0,0,0,1.05-4A8.06,8.06,0,0,0,13.7,8.93ZM24.23,24.47l-13.46.28,0-4.94,13.48,0Z" fill="#28b089"></path><path d="M31.11,0V5.14H24V0Zm-.24,7V24.47H24.23V7Z" fill="#ced8dd"></path><path d="M40.59,7V24.51H33.94V7Zm4.21,5.9A2.55,2.55,0,0,0,43,12.27a2.26,2.26,0,0,0-1.2.33,2.43,2.43,0,0,0-.86.91,2.8,2.8,0,0,0-.31,1.35l-1.37-.21a9.41,9.41,0,0,1,1-4.46,7.68,7.68,0,0,1,2.5-2.87,5.53,5.53,0,0,1,3.08-1,5.94,5.94,0,0,1,4.54,1.9,7.65,7.65,0,0,1,1.78,5.44V24.51H45.48V15.07A2.92,2.92,0,0,0,44.8,12.93Z" fill="#ced8dd"></path><path d="M55.81,10.85a7.68,7.68,0,0,1,3.13-3.11,10.79,10.79,0,0,1,9.75.13,8.92,8.92,0,0,1,3.41,3.35,9.54,9.54,0,0,1,1.24,4.9v1.15H61.14V13.14h5.07a2.08,2.08,0,0,0-.75-1.43,2.56,2.56,0,0,0-1.66-.52,1.92,1.92,0,0,0-1.73,1,7.11,7.11,0,0,0-.61,3.48,5.86,5.86,0,0,0,.64,3.06,2.11,2.11,0,0,0,1.91,1,2.35,2.35,0,0,0,1.38-.35,1.6,1.6,0,0,0,.65-1h7.09a6.5,6.5,0,0,1-2.85,4.85,11.53,11.53,0,0,1-6.34,1.55,10.33,10.33,0,0,1-4.9-1.1,7.69,7.69,0,0,1-3.19-3.15,9.76,9.76,0,0,1-1.14-4.84A10,10,0,0,1,55.81,10.85Z" fill="#ced8dd"></path><path d="M86.91,7v5.18H75.3V7Zm0,17.48H84.74A8.76,8.76,0,0,1,81,23.74a5.28,5.28,0,0,1-2.4-2.14,6.57,6.57,0,0,1-.82-3.35V2.45h6.64V17.34a1.83,1.83,0,0,0,.34,1.22,1.31,1.31,0,0,0,1.06.39h1.09Z" fill="#ced8dd"></path><path d="M96.1,0V5.14H89V0Zm-.24,7V24.47H89.21V7Z" fill="#ced8dd"></path><path d="M105.57,0V24.47H98.93V0Zm12.55,7-5.94,7.9,6.57,9.58h-7.69l-3.84-6-2.31,3-2.1-3.78L109.91,7Z" fill="#27aae1"></path></svg><!--/--></div><p data-hk="0-0-1-0-1-1-0-4"><a href="/terms">Terms of services</a> | <a href="/privacy">Privacy</a></p><p data-hk="0-0-1-0-1-1-0-5">Copyright &copy; Qinetik 2023<br>All rights reserved</p></div><!--!$/e0-0-1-0-1-1-0--><style>.ct7xjjj{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap:2em;
+
+
+}</style><!--!$e0-0-1-0-2-1-0--><div data-hk="0-0-1-0-2-1-0-0" gap="2em" class="ct7xjjj "><h4 data-hk="0-0-1-0-2-1-0-1">About Us</h4><a data-hk="0-0-1-0-2-1-0-2">Customer Support</a><a data-hk="0-0-1-0-2-1-0-3" href="#">Copyright</a></div><!--!$/e0-0-1-0-2-1-0--><style>.ct7xjjj{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap:2em;
+
+
+}</style><!--!$e0-0-1-0-3-1-0--><div data-hk="0-0-1-0-3-1-0-0" gap="2em" class="ct7xjjj "><h4 data-hk="0-0-1-0-3-1-0-1">Our Information</h4><a data-hk="0-0-1-0-3-1-0-2" href="/privacy">Privacy Policy</a><a data-hk="0-0-1-0-3-1-0-3" href="/terms">Terms &amp; Conditions</a></div><!--!$/e0-0-1-0-3-1-0--><style>.ct7xjjj{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap:2em;
+
+
+}</style><!--!$e0-0-1-0-4-1-0--><div data-hk="0-0-1-0-4-1-0-0" gap="2em" class="ct7xjjj "><h4 data-hk="0-0-1-0-4-1-0-1">Connect</h4><style>.c1cp0bfn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap:1em;
+
+
+}</style><!--!$e0-0-1-0-4-1-0-2-1-0--><a data-hk="0-0-1-0-4-1-0-2-1-0-0" gap="1em" href="https://www.facebook.com/qinetik/" target="_blank" class="c1cp0bfn "><svg data-hk="0-0-1-0-4-1-0-2-1-0-1-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xml:space="preserve" viewBox="0 0 40 40"><linearGradient id="a" x1="-277.375" x2="-277.375" y1="406.6018" y2="407.5726" gradientTransform="matrix(40 0 0 -39.7778 11115.001 16212.334)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0062e0"></stop><stop offset="1" stop-color="#19afff"></stop></linearGradient><path fill="url(#a)" d="M16.7 39.8C7.2 38.1 0 29.9 0 20 0 9 9 0 20 0s20 9 20 20c0 9.9-7.2 18.1-16.7 19.8l-1.1-.9h-4.4l-1.1.9z"></path><path fill="#fff" d="m27.8 25.6.9-5.6h-5.3v-3.9c0-1.6.6-2.8 3-2.8H29V8.2c-1.4-.2-3-.4-4.4-.4-4.6 0-7.8 2.8-7.8 7.8V20h-5v5.6h5v14.1c1.1.2 2.2.3 3.3.3 1.1 0 2.2-.1 3.3-.3V25.6h4.4z"></path></svg><span data-hk="0-0-1-0-4-1-0-2-1-0-2">Facebook</span></a><!--!$/e0-0-1-0-4-1-0-2-1-0--><style>.c1cp0bfn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap:1em;
+
+
+}</style><!--!$e0-0-1-0-4-1-0-3-1-0--><a data-hk="0-0-1-0-4-1-0-3-1-0-0" gap="1em" href="https://twitter.com/qinetikofficial" target="_blank" class="c1cp0bfn "><style>.cbhcz3u{
+    fill: var(--d5);
+    width: 1.5rem;
+    height: 1.5rem;
+}</style><!--!$e0-0-1-0-4-1-0-3-1-0-1-1-0--><div data-hk="0-0-1-0-4-1-0-3-1-0-1-1-0-0" class="cbhcz3u "><svg data-hk="0-0-1-0-4-1-0-3-1-0-1-1-0-1-0" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24" height="24" viewBox="0 0 248 204"><path fill="#1d9bf0" d="M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"></path></svg></div><!--!$/e0-0-1-0-4-1-0-3-1-0-1-1-0--><span data-hk="0-0-1-0-4-1-0-3-1-0-2">Twitter</span></a><!--!$/e0-0-1-0-4-1-0-3-1-0--><style>.c1cp0bfn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap:1em;
+
+
+}</style><!--!$e0-0-1-0-4-1-0-4-1-0--><a data-hk="0-0-1-0-4-1-0-4-1-0-0" gap="1em" href="https://github.com/Qinetik/" target="_blank" class="c1cp0bfn "><svg data-hk="0-0-1-0-4-1-0-4-1-0-1-0" width="24" height="24" class="display-in-dark " viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"></path></svg><svg data-hk="0-0-1-0-4-1-0-4-1-0-2-0" width="24" height="24" class="display-in-light " viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#24292f"></path></svg><span data-hk="0-0-1-0-4-1-0-4-1-0-3">Github</span></a><!--!$/e0-0-1-0-4-1-0-4-1-0--><style>.c1cp0bfn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap:1em;
+
+
+}</style><!--!$e0-0-1-0-4-1-0-5-1-0--><a data-hk="0-0-1-0-4-1-0-5-1-0-0" gap="1em" href="https://linkedin.com/company/qinetik/" target="_blank" class="c1cp0bfn "><svg data-hk="0-0-1-0-4-1-0-5-1-0-1-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 72 72"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"></path><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"></path></g></svg><span data-hk="0-0-1-0-4-1-0-5-1-0-2">LinkedIn</span></a><!--!$/e0-0-1-0-4-1-0-5-1-0--></div><!--!$/e0-0-1-0-4-1-0--></footer><!--!$/e0-0-1-0--></div><!--!$/e0-1-0--></body></html>

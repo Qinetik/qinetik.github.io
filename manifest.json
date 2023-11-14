@@ -1,0 +1,105 @@
+{
+  "_GooglePlayIcon-3e3dcbb0.js": {
+    "file": "assets/GooglePlayIcon-3e3dcbb0.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_PageContainer-4902de9e.js": {
+    "file": "assets/PageContainer-4902de9e.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "src/entry-client.tsx": {
+    "dynamicImports": [
+      "src/routes/apps/123mind/index.tsx",
+      "src/routes/apps/easytodo/index.tsx",
+      "src/routes/apps/sketchable/index.tsx",
+      "src/routes/apps/timeline/index.tsx",
+      "src/routes/delete-data-request.tsx",
+      "src/routes/index.tsx",
+      "src/routes/privacy.tsx",
+      "src/routes/terms.tsx"
+    ],
+    "file": "assets/entry-client-43b8437b.js",
+    "isEntry": true,
+    "src": "src/entry-client.tsx"
+  },
+  "src/routes/apps/123mind/index.tsx": {
+    "file": "assets/index-8f1abe46.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_GooglePlayIcon-3e3dcbb0.js",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/apps/123mind/index.tsx"
+  },
+  "src/routes/apps/easytodo/index.tsx": {
+    "file": "assets/index-7a8bfea6.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_GooglePlayIcon-3e3dcbb0.js",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/apps/easytodo/index.tsx"
+  },
+  "src/routes/apps/sketchable/index.tsx": {
+    "file": "assets/index-56f0dd5b.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_PageContainer-4902de9e.js",
+      "_GooglePlayIcon-3e3dcbb0.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/apps/sketchable/index.tsx"
+  },
+  "src/routes/apps/timeline/index.tsx": {
+    "file": "assets/index-76a27596.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_GooglePlayIcon-3e3dcbb0.js",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/apps/timeline/index.tsx"
+  },
+  "src/routes/delete-data-request.tsx": {
+    "file": "assets/delete-data-request-f7727631.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/delete-data-request.tsx"
+  },
+  "src/routes/index.tsx": {
+    "file": "assets/index-efef42ee.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  },
+  "src/routes/privacy.tsx": {
+    "file": "assets/privacy-3454f7df.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/privacy.tsx"
+  },
+  "src/routes/terms.tsx": {
+    "file": "assets/terms-1369fd8f.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_PageContainer-4902de9e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/terms.tsx"
+  }
+}

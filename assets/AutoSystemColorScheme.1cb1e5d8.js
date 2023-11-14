@@ -1,1 +1,0 @@
-import{e as t}from"./web.f4fdd86a.js";import{g as o,o as c}from"./index.3d216e68.js";function l(){t(()=>{const e=localStorage.getItem("theme-key");e==null?(document.documentElement.className=o(),c(m=>{document.documentElement.className=m})):document.documentElement.className=e})}export{l as AutoSystemColorScheme};

@@ -1,0 +1,203 @@
+{
+  "/apps/123mind/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/index-8f1abe46.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-8f1abe46.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/GooglePlayIcon-3e3dcbb0.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "/apps/easytodo/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/index-7a8bfea6.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-7a8bfea6.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/GooglePlayIcon-3e3dcbb0.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "/apps/sketchable/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/index-56f0dd5b.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-56f0dd5b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/GooglePlayIcon-3e3dcbb0.js"
+      }
+    ]
+  },
+  "/apps/timeline/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/index-76a27596.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-76a27596.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/GooglePlayIcon-3e3dcbb0.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "/delete-data-request": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/delete-data-request-f7727631.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/delete-data-request-f7727631.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/index-efef42ee.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/index-efef42ee.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "/privacy": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/privacy-3454f7df.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/privacy-3454f7df.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "/terms": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/assets/terms-1369fd8f.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/terms-1369fd8f.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      },
+      {
+        "type": "script",
+        "href": "/assets/PageContainer-4902de9e.js"
+      }
+    ]
+  },
+  "entry-client": {
+    "type": "entry",
+    "script": {
+      "type": "script",
+      "href": "/assets/entry-client-43b8437b.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/entry-client-43b8437b.js"
+      }
+    ]
+  },
+  "index.html": {
+    "type": "entry",
+    "assets": []
+  }
+}
